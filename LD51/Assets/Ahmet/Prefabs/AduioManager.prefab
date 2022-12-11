@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3432404635647185338
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3432404635647185336}
+  - component: {fileID: 3432404635647185337}
+  m_Layer: 0
+  m_Name: AduioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3432404635647185336
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3432404635647185338}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -435.99237, y: -2431.8022, z: -946.1563}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3432404635647185337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3432404635647185338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 659df1f582316c14299660335ddfd912, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  state: 2
+  sounds:
+  - name: DimensionChange
+    clip: {fileID: 8300000, guid: 48a54fdc536cf974cb134625dd79850d, type: 3}
+    volume: 1
+    pitch: 1
+    randomVolume: 0
+    randomPitch: 0
+    loop: 0
+    source: {fileID: 0}
+  musics:
+  - name: MainMenuMusic
+    clip: {fileID: 8300000, guid: 0289f3189d7c1744e86f4e8e21dd4cbe, type: 3}
+    volume: 0.2
+    pitch: 1
+    randomVolume: 0.5
+    randomPitch: 0
+    loop: 1
+    source: {fileID: 0}
+  - name: CityMusic
+    clip: {fileID: 8300000, guid: 6aeb5f2ba6819b649bb1cc4f9b75099b, type: 3}
+    volume: 0.2
+    pitch: 1
+    randomVolume: 0.5
+    randomPitch: 0
+    loop: 1
+    source: {fileID: 0}
+  - name: GameMusic
+    clip: {fileID: 8300000, guid: 3e6e81797e3bb9c42a65ce810f218a1f, type: 3}
+    volume: 0.2
+    pitch: 1
+    randomVolume: 0.5
+    randomPitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: GameMusic_1
+    clip: {fileID: 8300000, guid: 64f334266971ca44e858156cf58230a8, type: 3}
+    volume: 0.2
+    pitch: 1
+    randomVolume: 0.5
+    randomPitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: GameMusic_2
+    clip: {fileID: 8300000, guid: 70ccf791368d33049a707877a0f862c4, type: 3}
+    volume: 0.2
+    pitch: 1
+    randomVolume: 0.5
+    randomPitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: GameMusic_3
+    clip: {fileID: 8300000, guid: 4a54f1bde23e58340b0cb1bf0ae2ac6a, type: 3}
+    volume: 0.2
+    pitch: 1
+    randomVolume: 0.5
+    randomPitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: GameMusic_4
+    clip: {fileID: 8300000, guid: c24e630f878b10e4aa8a56880ca92ec5, type: 3}
+    volume: 0.2
+    pitch: 1
+    randomVolume: 0.5
+    randomPitch: 0
+    loop: 0
+    source: {fileID: 0}

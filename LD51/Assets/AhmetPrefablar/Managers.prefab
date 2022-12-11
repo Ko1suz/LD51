@@ -1,0 +1,177 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &881539543
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 881539544}
+  m_Layer: 0
+  m_Name: RandomMapGenerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &881539544
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 881539543}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -10.062577, y: 28.425629, z: -910.189}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 195085843241922885}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &195085843241922884
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 195085843241922885}
+  - component: {fileID: 195085843241922886}
+  - component: {fileID: 195085843241922889}
+  - component: {fileID: 195085843241922888}
+  - component: {fileID: 195085843241922887}
+  m_Layer: 0
+  m_Name: Managers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &195085843241922885
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 195085843241922884}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.2577934, y: 21.18776, z: -24.13015}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 881539544}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &195085843241922886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 195085843241922884}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5378c0b7b3a01949817813075db1f67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Dimensions_1:
+  - {fileID: 0}
+  Dimensions_2:
+  - {fileID: 0}
+  skyboxRef: {fileID: 2100000, guid: 2bd8959f5fbd3644aa33af1a155fc147, type: 2}
+  cubeMap1: {fileID: 8900000, guid: 6e48e58455b8e1e4e8a276520fd59a76, type: 3}
+  cubeMap2: {fileID: 8900000, guid: ce7ef0c7802cd2b4aa794c65ff65246a, type: 3}
+  dimension_1: 1
+  time: 0
+  maxTime: 10
+  minTime: 0
+  scaleCam: 0
+  canChangeDimension: 1
+--- !u!114 &195085843241922889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 195085843241922884}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 351fb88b00f250e498a2bd0938403a7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeLoseCanvas: {fileID: 0}
+  cameraController: {fileID: 0}
+--- !u!114 &195085843241922888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 195085843241922884}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb88d5e3a0954f943a7743bf72e01908, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  gameManager: {fileID: 0}
+  uiControl: {fileID: 0}
+  dimensionTransform: {fileID: 0}
+--- !u!114 &195085843241922887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 195085843241922884}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fd8d64482384854182b82a16f3747c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TimerBar: {fileID: 0}
+  TimerBarPozitif: {fileID: 0}
+  TimerBarNegatif: {fileID: 0}
+  DimensionChangeTimer: {fileID: 0}
+  PauseUI: {fileID: 0}
+  timerText: {fileID: 0}
+  timergradient:
+    serializedVersion: 2
+    key0: {r: 1, g: 0.3537736, b: 0.3537736, a: 1}
+    key1: {r: 1, g: 0.99228716, b: 0.4292453, a: 1}
+    key2: {r: 0.37026575, g: 1, b: 0.2688679, a: 0}
+    key3: {r: 1, g: 0.99215686, b: 0.42745098, a: 0}
+    key4: {r: 1, g: 0.3443396, b: 0.3443396, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 16580
+    ctime2: 32800
+    ctime3: 49544
+    ctime4: 65535
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_NumColorKeys: 5
+    m_NumAlphaKeys: 2
+  timeSlider: {fileID: 0}
+  DimensionChangeTimerSlider: {fileID: 0}
+  TimerBarPozitifSlider: {fileID: 0}
+  TimerBarNegatifSlider: {fileID: 0}
+  TimerBarPozitifSliderImage: {fileID: 0}
+  TimerBarNegatifSliderImage: {fileID: 0}
